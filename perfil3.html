@@ -33,46 +33,80 @@
     </header>
     <main>
       <ul>
+        <h3>
+            Selecione todas as alternativas de interesse
+        </h3>
+      </ul>
+      <ul>
         <il>
             <p>
-                Escolaridade
+                Modalidades
             </p>
-            <select name="Escolaridade">
-                <option>Selecione sua escolaridade</option>
-                <option>Ensino fundamental incompleto</option>
-                <option>Ensino fundamental completo</option>
-                <option>Ensino médio incompleto</option>
-                <option>Ensino médio completo</option>
-                <option>Ensino superior incompleto</option>
-                <option>Ensino superior completo</option>
-            </select>
+            <input type="checkbox"/>
+            Presencial
+            <input type="checkbox"/>
+            Remoto
+            <input type="checkbox"/>
+            Híbrido
+        </il>
+        <ul>
+            <input type="range" min="2" max="200" value="10"/>
+            <p>Raio de distância: <span id="valorSelecionado">10 Km</span></p>
+        </ul>
+        <il>
+            <p>
+                Oportunidades
+            </p>
+            <input type="checkbox"/>
+            Acadêmicas
+            <input type="checkbox"/>
+            Profissionais
+            <input type="checkbox"/>
+            Hobbies
         </il>
         <il>
             <p>
-                Insira sua ocupação atual
+                Áreas de interese
             </p>
-            <input type="text">
+            <input type="checkbox"/>
+            Biológicas
+            <input type="checkbox"/>
+            Exatas
+            <input type="checkbox"/>
+            Humanas
+            <input type="checkbox"/>
+            Saúde
+            <input type="checkbox"/>
+            Engenharia
+            <input type="checkbox"/>
+            Artes
+            <input type="checkbox"/>
+            Filosofia
+            <input type="checkbox"/>
+            Tecnologia
+            <input type="checkbox"/>
+            Artesanato
+            <input type="checkbox"/>
+            Administração
+            <p>
+            </p>
+            <img src="https://fakeimg.pl/150x50">
+            <p>
+                Carregar mais
+            </p>
         </il>
+
         
-        <il>
-            <p>
-                Insira sua renda per capta (em reais)
-            </p>
-            <input type="text" pattern="[0-9]+([,\.][0-9]+)?" placeholder="Exemplo: 1500,50">
-            <p>
-                <!-- espaço para pular uma linha-->
-            </p>
-        </il>
       </ul>
 
         <!--Botão de próxima etapa-->
     <ul>
         <il>
-            <a href="perfil3.html">
-                <img src="https://fakeimg.pl/50x50">
-                
+            <a href="prontinho.html">
+                <img src="https://fakeimg.pl/150x50">
+ 
             <p>
-                Próxima etapa
+                CONCLUIR PERFIL
             </p>
             </a>
         </il>
