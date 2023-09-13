@@ -7,74 +7,89 @@
 </head>
 <body>
     <header>
-        <a href="bolsas.html">
-            <img src="https://fakeimg.pl/50x50">
-            <p>
-                Voltar
-            </p>
-        </a>
-        <h2> 
-            Filtros
-        </h2>
         <ul>
-            <img src="/img/sol.png"
+            <li>
+                <a href="bolsas.html">
+                    <img src="https://fakeimg.pl/50x50" alt="Seta de voltar">
+                    <p>
+                        Voltar
+                    </p>
+                </a>
+                <h2> 
+                    Filtros
+                </h2>
+                <img src="/img/sol.png" alt="Logo de sol">
+            </li>
         </ul>
     </header>
     <main>
-        <h1>
-            Selecione todas as alternativas de interesse
-        </h1>
-
-        <h2>
-            Modalidade
-        </h2>
-
-        <input type="checkbox" id="Presencial" name="Presencial"/>
-        Presencial 
-        <input type="checkbox" id="Online" name="Online"/>
-        Online
-        <input type="checkbox" id="Híbrido" name="Híbrido"/>
-        Híbrido
-
-        <h2>
-            Distância máxima
-            <input type="text">
-            <p>
-                <!-- espaço para pular uma linha-->
-            </p>
-        </h2>
-
-        <h2>
-            Oportunidades
-        </h2>
-        <input type="checkbox"/>
-        Acadêmicas
-        <input type="checkbox"/>
-        Profissionais
-
-        <h2>
-            Áreas de interesse
-        </h2>
-        <input type="checkbox"/>
-        Humanas
-        <input type="checkbox"/>
-        Biológicas
-        <input type="checkbox"/>
-        Exatas
-        <input type="checkbox"/>
-        Saúde
-        <input type="checkbox"/>
-        Engenharias
-        <input type="checkbox"/>
-        Artes
-        <input type="checkbox"/>
-        Filosofia e Sociologia
-        <input type="checkbox"/>
-        Tecnologia
-        <input type="checkbox"/>
-        Artesanato
-        <input type="checkbox"/>
-        Outros
+        <ul>
+            <li>
+                <h3>
+                    Modalidade
+                </h3>
+                <input type="checkbox">
+                Presencial 
+                <input type="checkbox">
+                Online
+                <input type="checkbox">
+                Híbrido
+                <h3>
+                    Distância
+                </h3>
+                <input type="range" min="2" max="200" value="10">
+                <p>Raio de distância: <span>10 Km</span></p>
+            </li>
+            <li>
+                <h3>
+                    Acadêmico
+                </h3>
+                <input type="checkbox">
+                Engenharia
+                <input type="checkbox">
+                Letras
+                <input type="checkbox">
+                Psicologia
+                <input type="checkbox">
+                Direito
+                <input type="checkbox">
+                História
+                <input type="checkbox">
+                Medicina
+                <a href="#">
+                    <img src="/img/mais.png" alt="Mais">
+                    Carregar mais
+                </a>
+                
+            </li>
+            <li>
+                <h3>
+                    Faixa de preço
+                </h3>
+                <input type="checkbox">
+                Gratuito 
+                <input type="checkbox">
+                <input type="range" min="0" max="15000" value="0">
+                Preço até: <span> R$ 0,00</span>
+            </li>
+            <li>
+                <h3>
+                    Recomendações
+                </h3>
+                <input type="checkbox">
+                Permitir pequenas diferenças
+            </li>
+        </ul>
+        <ul>
+            <li>
+                <a href="filtrados.html">
+                    <img src="https://fakeimg.pl/500x50" alt="Símbolo de Concluir">
+                    <p>
+                        Aplicar Filtros
+                    </p>
+                </a>
+            </li>    
+        </ul>
     </main>
 </body>
 </html>
