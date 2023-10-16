@@ -3,23 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/index.css">
     <title>Horizontes - Tela de Bolsas</title>
 </head>
 <body>
     <header>
         <ul>
-            
-            <a href="config.html">
+            <a href="config.html" class="config">
                 <img src="img/config.png" alt="Configuração">
                 <p>
                     Configurações
                 </p>
             </a>
-            <a href="index.html">
+            <a href="index.html" class="inicio">
                 <img src="img/horizontes_logo.png" alt="Logo">
                 <p> <!--Sem legenda--></p>
             </a>
-            <a href="filtros.html">
+            <a href="filtros.html" class="filtros">
                 <img src="img/filtros.png" alt="Filtros">
                 <p>
                 Filtros
@@ -30,21 +31,21 @@
     </header>
     <main>
         <ul>
-            <li>
-                <select name="Ordenar">
+            <li class="filtrinho">
+                <select name="Ordenar" class="select">
                     <option>Ordenar</option>
                     <option>Modalidade</option>
                     <option>Distância</option>
                     <option>Preço</option>
                 </select>
-                <select name="Preço">
+                <select name="Preço" class="select">
                     <option>Preço</option>
                     <option>Gratuito</option>
                     <option>$</option>
                     <option>$$</option>
                     <option>$$$</option>
                 </select>
-                <select name="Distância">
+                <select name="Distância" class="select">
                     <option>Distância</option>
                     <option>Até 5km</option>
                     <option>Até 10km</option>
@@ -55,14 +56,14 @@
                     <option>Internacional</option>
                 </select>
                 
-                <select name="Modalidade">
+                <select name="Modalidade" class="select">
                     <option>Modalidade</option>
                     <option>Presencial</option>
                     <option>Remoto</option>
                     <option>Híbrido</option>
                 </select>
                 
-                <select name="Cursos">
+                <select name="Cursos" class="select">
                     <option>Cursos</option>
                     <option>Direito</option>
                     <option>Engenharias</option>
@@ -71,7 +72,7 @@
                     <option>Medicina</option>
                     <option>Outros cursos</option>
                 </select>
-                <a href="filtros.html">
+                <a href="filtros.html" class="mais">
                     <p>
                         Mais filtros
                     </p>
@@ -79,9 +80,9 @@
             </li>
         </ul>
         <ul>
-            <li>
-                <img src="img/logo_maua.png" alt="Logo Mauá">
-                <img src="img/sol.png" alt="Sol">
+            <li class="oportunidade">
+                <img src="img/logo_maua.png" alt="Logo Mauá" class="logo">
+                <img src="img/sol.png" alt="Sol" class="sol">
                 
                 <a href="#">
                     <h2>MAUÁ</h2>
@@ -92,8 +93,8 @@
                 <p>$$$</p>
                 <p>+50km</p>
             </li>
-            <li>
-                <img src="img/logo_pucparana.png" width="100" height="100" alt="Logo PUC-PARANÁ">
+            <li class="oportunidade">
+                <img src="img/logo_pucparana.png" width="100" height="100" alt="Logo PUC-PARANÁ" class="logo">
                 <a href="#">
                     <h2>PUC-PARANÁ</h2>
                 </a>
@@ -103,9 +104,9 @@
                 <p>$$</p>
                 <p>+100km</p>
             </li>
-            <li>
-                <img src="img/logo_fei.png" width="75" height="60" alt="Logo PUC-PARANÁ">
-                <img src="img/sol.png" alt="Sol">
+            <li class="oportunidade">
+                <img src="img/logo_fei.png" width="75" height="60" alt="Logo PUC-PARANÁ" class="logo">
+                <img src="img/sol.png" alt="Sol" class="sol">
                 <a href="#">
                     <h2>FEI</h2>
                 </a>
