@@ -111,19 +111,3 @@ h2 {
     height: 60%;
 
 }
-
-a{
-    text-decoration: none;
-}
-
-
-.coraçao {
-    position: absolute;
-    top: -0.6rem;
-}
-
-.sol {   
-    position: absolute;
-    top: 8rem;
-    right: 18rem;
-}

@@ -1,13 +1,24 @@
 ul{
     position: relative;
-    left: 2rem;
+    left: 5%;
 }
-
+.sol{
+    position: absolute;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    top: 5%;
+    right: 1%;
+}
 .descricao{
     display: flex;
     left: 0rem;
     margin-top: 1rem;
     
+}
+
+h1{
+    font-size: 220%;
 }
 
 h2{
@@ -34,13 +45,6 @@ h6{
     margin-top: 2rem;
     padding: 3% 5%;
     border-radius: 5px;
-}
-
-.sol{
-    position: relative;
-    display: flex;
-    flex-direction: row-reverse;
-    top: -5.2rem;
 }
 
 .filtrinho{
