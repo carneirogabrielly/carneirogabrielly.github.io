@@ -33,8 +33,81 @@ header{
 }
 
 main{
-    width: 100%;
+    width: 90%;
     height: 80%;
+}
+
+ul{
+    position: relative;
+    left: 2rem;
+}
+
+.descricao{
+    display: flex;
+    left: 0rem;
+    margin-top: 1rem;
+    
+}
+
+.oportunidade{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    margin-top: 2rem;
+    padding: 3% 5%;
+    border-radius: 5px;
+}
+
+h2{
+    font-size: 1.6rem;
+    margin: 1rem 0rem 1.5rem 0rem;
+    color: black;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium'
+}
+
+h6{
+    margin-right: 16px;
+    padding: 0.3rem;
+    border: 2px solid gray;
+    border-radius: 10px;
+    background-color: rgb(244, 243, 243);
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.sol{
+    position: absolute;
+    left: 93%;
+    top: 0%;    
+}
+
+.filtrinho{
+    height: 3rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    left: 1rem;
+}
+
+.select{
+    margin-left: 10px;
+    border: 1px solid gray;
+}
+
+.mais{
+    position: relative;
+    font-size: 12px;
+    left: 20px;
+    color: black;
+    text-decoration: overline underline;
+    font-family: 'Franklin Gothic Medium'
 }
 
 .personalize{
@@ -49,8 +122,6 @@ main{
     font-size: 1.8rem;
     font-family: 'Franklin Gothic Medium';
 }
-
-
 
 footer{
     width: 100%;
