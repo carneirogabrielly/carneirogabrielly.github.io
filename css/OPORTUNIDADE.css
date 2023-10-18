@@ -6,10 +6,16 @@ ul{
     position: absolute;
     display: flex;
     flex-direction: row-reverse;
-    align-items: center;
     top: 5%;
     right: 1%;
 }
+
+.coracao{
+    position: relative;
+    top: -8px;
+    right: -4.5px;
+}
+
 .descricao{
     display: flex;
     left: 0rem;
