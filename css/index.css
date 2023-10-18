@@ -64,7 +64,7 @@ h2{
     margin: 1rem 0rem 1.5rem 0rem;
     color: black;
     text-decoration: none;
-    font-family: 'Franklin Gothic Medium'
+    font-family: 'Franklin Gothic Medium';
 }
 
 h6{
@@ -133,3 +133,4 @@ footer{
     text-align: center;
     border-top: 3px solid gray;
 }
+

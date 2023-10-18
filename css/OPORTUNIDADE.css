@@ -1,0 +1,76 @@
+ul{
+    position: relative;
+    left: 2rem;
+}
+
+.descricao{
+    display: flex;
+    left: 0rem;
+    margin-top: 1rem;
+    
+}
+
+h2{
+    font-size: 1.6rem;
+    margin: 1rem 0rem 1.5rem 0rem;
+    color: black;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium';
+}
+
+h6{
+    margin-right: 16px;
+    padding: 0.3rem;
+    border: 2px solid gray;
+    border-radius: 10px;
+    background-color: rgb(244, 243, 243);
+}
+
+.oportunidade{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    margin-top: 2rem;
+    padding: 3% 5%;
+    border-radius: 5px;
+}
+
+.sol{
+    position: relative;
+    display: flex;
+    flex-direction: row-reverse;
+    top: -5.2rem;
+}
+
+.filtrinho{
+    height: 3rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    left: 1rem;
+}
+
+.mais{
+    position: relative;
+    font-size: 12px;
+    left: 20px;
+    color: black;
+    text-decoration: overline underline;
+    font-family: 'Franklin Gothic Medium'
+}
+
+.personalize{
+    height: 80%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: black;
+    text-decoration: none;
+    font-size: 1.8rem;
+    font-family: 'Franklin Gothic Medium';
+}
