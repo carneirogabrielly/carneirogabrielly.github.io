@@ -66,7 +66,6 @@ h6{
 .mais{
     position: relative;
     font-size: 12px;
-    left: 20px;
     color: black;
     text-decoration: overline underline;
     font-family: 'Franklin Gothic Medium'
@@ -74,13 +73,35 @@ h6{
 
 .personalize{
     height: 80%;
+    width: 110%;
     align-items: center;
     justify-content: center;
     display: flex;
     flex-direction: column;
-    text-align: center;
     color: black;
     text-decoration: none;
     font-size: 1.8rem;
     font-family: 'Franklin Gothic Medium';
+}
+
+.topico{
+    display: inline-block;
+    position: relative;
+    width: 30%;
+    left: 2%;
+    text-align: center;
+    border: 2px solid black;
+    padding: 10% 6%;
+    font-size: 2rem;
+    font-family: 'Franklin Gothic Medium';
+    margin: 6% 3%;
+}
+
+.pesquisa{
+    width: 60%;
+    height: 15%;
+    font-size: 1.2rem;
+    padding: 1rem;
+    border-radius: 40px;
+    border: 2px solid gray;
 }
