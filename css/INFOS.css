@@ -1,0 +1,72 @@
+h1{
+    font-size: 220%;
+}
+
+h2{
+    font-size: 180%;
+    margin-top: 3rem;
+    color: black;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium';
+}
+
+h3{
+    margin-top: 2rem;
+    margin-bottom: -1.8rem;
+    font-size: 120%;
+    color: black;
+    text-decoration: underline;
+    font-style: italic;
+    position: relative;
+    font-family: 'Franklin Gothic';
+}
+
+main{
+    position: relative;
+    left: 10%;
+}
+
+p{
+    font-size: 120%;
+    margin-top: 1rem;
+}
+
+li::before {content: "-"; color: black;
+    width: 1em;
+    font-size: 20px;
+    margin-left: -1rem;
+    position: relative;
+    top: 2.3rem;
+}
+
+li{
+    margin-left: 1rem;
+    margin-bottom: -1rem;
+}
+
+ul{
+    margin-bottom: 4rem;
+    display: flexbox;
+    flex-wrap: wrap;
+    width: 90%;
+}
+
+ol{
+    font-size: 100%;
+}
+
+.ordenado::before {
+    content: none; color: black;
+}
+
+.ordenado{
+    margin-top: 2rem;
+    color: black;
+    list-style-type: decimal;
+    justify-content: center;
+    padding-left: 5px;
+}
+
+
+
+
