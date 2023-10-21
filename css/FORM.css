@@ -1,0 +1,58 @@
+html, body{
+    background-color: white;
+}
+
+main{
+    margin: 0%;
+}
+
+ul{
+    display:block;
+    margin: 0%;
+    justify-content: center;
+    align-items: center;
+}
+
+li{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 9%;
+    margin-left: 10%;
+}
+
+.seta{
+    scale: -1;
+    margin-left: 25%;
+}
+
+input, select{
+    margin-top: 1%;
+    border: 2px solid #E6E6E6;
+}
+
+h1{
+    font-size: 120%;
+    margin-bottom: 7%;
+}
+
+.opcoes{
+    margin-top: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+
+    justify-content: center;
+}
+
+.mais{
+    margin-top: 6%;
+}
+
+h2{
+    justify-content: center;
+    align-items: center;
+    font-size: 110%;
+    margin-bottom: 10%;
+    margin-left: 3%;
+}

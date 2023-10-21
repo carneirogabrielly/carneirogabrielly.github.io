@@ -1,6 +1,12 @@
 html, body{
     width: 100%;
     height: 100%;
+    background-color: #002147
+}
+
+.horizontes{
+    width: 200px;
+    margin-top: 3%;
 }
 
 header{
@@ -13,6 +19,7 @@ header{
     display: flex;
     flex-direction: row;
     text-align: center;
+    background-color: white;
 }
 
 .meio{
@@ -37,7 +44,8 @@ header{
 
 main{
     width: 90%;
-    height: 80%;
+    height: 100%;
+    padding-bottom: 100%;
 }
 
 a{
@@ -62,4 +70,6 @@ footer{
     text-align: center;
     border-top: 3px solid gray;
     background-color: white;
+    margin-top: 10%;
 }
+

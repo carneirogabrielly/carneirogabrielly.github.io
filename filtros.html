@@ -4,78 +4,113 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/GERAL.css">
+    <link rel="stylesheet" href="css/FILTROS.css">
     <title>Filtros</title>
 </head>
 <body>
     <header>
-        <a href="inicio.html">
+        <a href="inicio.html" class="esquerda">
             <img src="img/voltar.png" alt="Seta de voltar">
             <p>
                 Voltar
             </p>
         </a>
-        <h2> 
-            Favoritos
-            <img src="/img/sol.png" alt="Logo de sol">
-        </h2>
+        <h1>Filtros</h1>
+        <img src="img/sol.png" alt="Logo de sol" class="direita" width="50">
     </header>
     <main>
         <ul>
-            <li>
-                <h3>
+            <li class="topico">
+                <h2>
                     Modalidade
-                </h3>
-                <input type="checkbox">
-                Presencial 
-                <input type="checkbox">
-                Online
-                <input type="checkbox">
-                Híbrido
-                <h3>
+                </h2>
+                <ul class="opcoes">
+                    <li>
+                        <input type="checkbox">
+                        Presencial
+                    </li>
+                    <li>
+                        <input type="checkbox">
+                        Online
+                    </li>
+                    <li>
+                        <input type="checkbox">
+                        Híbrido
+                    </li>
+                </ul>
+                <h2>
                     Distância
-                </h3>
-                <input type="range" min="2" max="200" value="10">
-                <p>Raio de distância: <span>10 Km</span></p>
+                </h2>
+                <ul class="arrasto">
+                    <li>
+                        <input type="range" min="2" max="200" value="10">
+                        <p>Raio de distância: <span>10 Km</span></p>
+                    </li>
+                </ul>
             </li>
-            <li>
-                <h3>
+            <li class="topico">
+                <h2>
                     Acadêmico
-                </h3>
-                <input type="checkbox">
-                Engenharia
-                <input type="checkbox">
-                Letras
-                <input type="checkbox">
-                Psicologia
-                <input type="checkbox">
-                Direito
-                <input type="checkbox">
-                História
-                <input type="checkbox">
-                Medicina
-                <a href="#">
-                    <img src="/img/mais.png" alt="Mais">
+                </h2>
+                <ul class="opcoes">
+                    <li>
+                        <input type="checkbox">
+                        Engenharia
+                    </li>
+                    <li>
+                        <input type="checkbox">
+                        Letras
+                    </li>
+                    <li>
+                        <input type="checkbox">
+                        Psicologia
+                    </li>
+                    <li>
+                        <input type="checkbox">
+                        Direito
+                    </li>
+                    <li>
+                        <input type="checkbox">
+                        História
+                    </li>
+                    <li>
+                        <input type="checkbox">
+                        Medicina
+                    </li>
+                </ul>
+                <a href="#" class="mais">
+                    <img src="/img/mais.png" alt="Mais" width="30">
                     Carregar mais
                 </a>
                 
             </li>
-            <li>
-                <h3>
+            <li class="topico">
+                <h2>
                     Faixa de preço
-                </h3>
-                <input type="checkbox">
-                Gratuito 
-                <input type="checkbox">
-                <input type="range" min="0" max="15000" value="0">
-                Preço até: <span> R$ 0,00</span>
+                </h2>
+                <ul class="arrasto">
+                    <li>
+                        <input type="checkbox">
+                        Gratuito
+                    </li>
+                    <li>
+                        <input type="checkbox">
+                        <input type="range" min="0" max="15000" value="0">
+                        Preço até: <span> R$ 0,00</span>
+                    </li>
+                </ul>
             </li>
             <li>
-                <h3>
+                <h2>
                     Recomendações
-                </h3>
-                <input type="checkbox">
-                Permitir pequenas diferenças
+                </h2>
+                <ul class="opcoes">
+                    <li>
+                        <input type="checkbox">
+                        Permitir pequenas diferenças
+                    </li>
+                </ul>
             </li>
         </ul>
     </main>
