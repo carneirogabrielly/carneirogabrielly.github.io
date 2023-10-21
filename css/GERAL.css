@@ -9,6 +9,9 @@ html, body{
     margin-top: 3%;
 }
 
+.branco{
+    background-color: white;
+}
 header{
     width: 100%;
     height: 10%;
