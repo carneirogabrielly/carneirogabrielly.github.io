@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/GERAL.css">
+    <link rel="stylesheet" href="css/FORM.css">    
     <title>Horizontes - Personalize o Perfil</title>
 </head>
 <body>
@@ -16,31 +17,39 @@
             </p>
         </a>
         <a href="index.html" class="meio">
-            <img src="img/horizontes_logo.png" alt="Logo">
+            <img src="img/horizontes_logo.png" alt="Logo" class="horizontes">
             <p> <!--Sem legenda--></p>
         </a>
         <a href="filtros.html" class="direita">
             <img src="img/filtros.png" alt="Filtros">
             <p>
             Filtros
-            </p>
+            </p> 
         </a>
     </header>
     <main>
-        <h3>
-            Selecione todas as alternativas de interesse
-        </h3>
         <ul>
             <li>
+                <h2>
+                    Selecione todas as alternativas de interesse
+                </h2>
                 <p>
                     Modalidades
                 </p>
-                <input type="checkbox">
-                Presencial
-                <input type="checkbox">
-                Remoto
-                <input type="checkbox">
-                Híbrido
+                <ul class="opcoes">
+                    <li>
+                        <input type="checkbox">
+                        Presencial
+                    </li>
+                    <li>
+                        <input type="checkbox">
+                        Online
+                    </li>
+                    <li>
+                        <input type="checkbox">
+                        Híbrido
+                    </li>
+                </ul>
             </li>
             <li>
                 <p>
@@ -53,41 +62,54 @@
                 <p>
                     Oportunidades
                 </p>
-                <input type="checkbox">
-                Acadêmicas
-                <input type="checkbox">
-                Profissionais
-                <input type="checkbox">
-                Hobbies
+                <ul class="opcoes">
+                    <li>
+                        <input type="checkbox">
+                        Acadêmicas
+                    </li>
+                    <li>
+                        <input type="checkbox">
+                        Profissionais
+                    </li>
+                    <li>
+                        <input type="checkbox">
+                        Hobbies
+                    </li>
+                </ul>
             </li>
-            <li>
+            <li class="cu">
                 <p>
                     Áreas de interese
                 </p>
-                <input type="checkbox">
-                Biológicas
-                <input type="checkbox">
-                Exatas
-                <input type="checkbox">
-                Humanas
-                <input type="checkbox">
-                Saúde
-                <input type="checkbox">
-                Engenharia
-                <input type="checkbox">
-                Artes
-                <input type="checkbox">
-                Filosofia
-                <input type="checkbox">
-                Tecnologia
-                <input type="checkbox">
-                Artesanato
-                <input type="checkbox">
-                Administração
-                <p>
+                <ul class="opcoes">
+                    <li>
+                        <input type="checkbox">
+                        Engenharia
+                    </li>
+                    <li>
+                        <input type="checkbox">
+                        Letras
+                    </li>
+                    <li>
+                        <input type="checkbox">
+                        Psicologia
+                    </li>
+                    <li>
+                        <input type="checkbox">
+                        Direito
+                    </li>
+                    <li>
+                        <input type="checkbox">
+                        História
+                    </li>
+                    <li>
+                        <input type="checkbox">
+                        Medicina
+                    </li>
+                </ul>
                     <!-- Espaço para pular uma linha-->
                 </p>
-                <img src="https://fakeimg.pl/150x50" alt="Mais">
+                <img src="img/mais.png" alt="Mais" width="30px" class="mais">
                 <p>
                     Carregar mais
                 </p>
@@ -96,12 +118,12 @@
         <ul>
             <!--Botão de próxima etapa-->
             <li>
-                <a href="prontinho.html">
+                <a href="inicio.html">
                     <img src="https://fakeimg.pl/150x50" alt="Seta">
     
-                <p>
+                <h2>
                     CONCLUIR PERFIL
-                </p>
+                </h2>
                 </a>
             </li>
         </ul>

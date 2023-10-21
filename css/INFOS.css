@@ -1,3 +1,7 @@
+html, body{
+    background-color: #E6E6E6;
+}
+
 h1{
     font-size: 220%;
 }
@@ -29,6 +33,7 @@ main{
 p{
     font-size: 120%;
     margin-top: 1rem;
+    margin-right: 2rem;
 }
 
 li::before {content: "-"; color: black;
@@ -45,10 +50,9 @@ li{
 }
 
 ul{
-    margin-bottom: 4rem;
-    display: flexbox;
+    display: flex;
     flex-wrap: wrap;
-    width: 90%;
+    flex-direction: column;
 }
 
 ol{
