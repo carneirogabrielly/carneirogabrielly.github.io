@@ -1,5 +1,7 @@
 html, body{
     background-color: #E6E6E6;
+    font-family: 'Cabin', sans-serif;
+    /* font-family: 'Merriweather', serif; */
 }
 
 h1{
