@@ -1,5 +1,6 @@
 html, body{
     background-color: #E6E6E6;
+    font-family: 'Cabin', sans-serif;
 }
 
 h1{
@@ -11,7 +12,6 @@ h2{
     margin-top: 3rem;
     color: black;
     text-decoration: none;
-    font-family: 'Franklin Gothic Medium';
 }
 
 h3{
@@ -22,7 +22,6 @@ h3{
     text-decoration: underline;
     font-style: italic;
     position: relative;
-    font-family: 'Franklin Gothic';
 }
 
 main{
