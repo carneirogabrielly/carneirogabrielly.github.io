@@ -9,7 +9,7 @@ header{
     width: 100%;
     height: 10%;
     font-size: 1rem;
-    border-bottom: 3px solid gray;
+    border-bottom: 3px solid #E6E6E6;
     align-items: center;
     justify-content: center;
     display: flex;
@@ -66,15 +66,14 @@ h2{
     margin: 1rem 0rem 1.5rem 0rem;
     color: black;
     text-decoration: none;
-    font-family: 'Franklin Gothic Medium';
 }
 
 h6{
     margin-right: 16px;
     padding: 0.3rem;
-    border: 2px solid gray;
+    border: 2px solid #E6E6E6;
     border-radius: 10px;
-    background-color: rgb(244, 243, 243);
+    background-color: white;
 }
 
 a{
@@ -100,7 +99,7 @@ a{
 
 .select{
     margin-left: 10px;
-    border: 1px solid gray;
+    border: 1px solid #E6E6E6;
 }
 
 .mais{
@@ -109,7 +108,6 @@ a{
     left: 20px;
     color: black;
     text-decoration: overline underline;
-    font-family: 'Franklin Gothic Medium'
 }
 
 .personalize{
@@ -122,7 +120,6 @@ a{
     color: black;
     text-decoration: none;
     font-size: 1.8rem;
-    font-family: 'Franklin Gothic Medium';
 }
 
 footer{
@@ -133,6 +130,6 @@ footer{
     display: flex;
     flex-direction: row;
     text-align: center;
-    border-top: 3px solid gray;
+    border-top: 3px solid #E6E6E6;
 }
 

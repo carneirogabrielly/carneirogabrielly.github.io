@@ -41,15 +41,14 @@ h2{
     margin: 1rem 0rem 1.5rem 0rem;
     color: black;
     text-decoration: none;
-    font-family: 'Franklin Gothic Medium';
 }
 
 h6{
     margin-right: 16px;
     padding: 0.3rem;
-    border: 2px solid gray;
+    border: 2px solid #E6E6E6;
     border-radius: 10px;
-    background-color: rgb(244, 243, 243);
+    background-color: #E6E6E6;
 }
 
 .oportunidade{
@@ -80,7 +79,6 @@ h6{
     font-size: 12px;
     color: white;
     text-decoration: overline underline;
-    font-family: 'Franklin Gothic Medium';
     padding-bottom: 5px;
 }
 
@@ -94,7 +92,6 @@ h6{
     color: black;
     text-decoration: none;
     font-size: 1.8rem;
-    font-family: 'Franklin Gothic Medium';
 }
 
 .topico{
@@ -108,7 +105,6 @@ h6{
     border: 2px solid #E6E6E6;
     padding: 10% 6%;
     font-size: 100%;
-    font-family: 'Franklin Gothic Medium';
     margin: 6% 3%;
 }
 
