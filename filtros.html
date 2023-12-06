@@ -14,6 +14,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cabin&family=Merriweather&display=swap" rel="stylesheet">
+    <script src="js/filtros.js"></script>
     <title>Filtros</title>
 </head>
 <body>
@@ -52,8 +53,8 @@
                 </h2>
                 <ul class="arrasto">
                     <li>
-                        <input type="range" min="2" max="200" value="10">
-                        <p>Raio de distância: <span>10 Km</span></p>
+                        <input type="range" min="2" max="200" value="10" id="distancia">
+                        <p>Raio de distância: <span id="raioDistancia">10 Km</span></p>
                     </li>
                 </ul>
             </li>
@@ -104,8 +105,8 @@
                     </li>
                     <li>
                         <input type="checkbox">
-                        <input type="range" min="0" max="15000" value="0">
-                        Preço até: <span> R$ 0,00</span>
+                        <input type="range" min="0" max="15000" value="0" id="faixaPreco">
+                        Preço até: <span id="preco"> R$ 0,00</span>
                     </li>
                 </ul>
             </li>
