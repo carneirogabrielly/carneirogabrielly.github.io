@@ -14,6 +14,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cabin&family=Merriweather&display=swap" rel="stylesheet"> 
+    <!-- <script src="js/perfil.js"></script> -->
     <title>Horizontes - Personalize o Perfil</title>
 </head>
 <body>
@@ -41,7 +42,7 @@
                 <p>
                     Escolaridade
                 </p>
-                <select name="Escolaridade">
+                <select name="Escolaridade" id="escolaridade">
                     <option>Selecione sua escolaridade</option>
                     <option>Ensino fundamental incompleto</option>
                     <option>Ensino fundamental completo</option>
@@ -55,13 +56,13 @@
                 <p>
                     Insira sua ocupação atual
                 </p>
-                <input type="text">
+                <input type="text" id="ocupacao">
             </li> 
             <li>
                 <p>
                     Insira sua renda per capta (em reais)
                 </p>
-                <input type="text" pattern="[0-9]+([,\.][0-9]+)?" placeholder="Exemplo: 1500,50">
+                <input type="text" pattern="[0-9]+([,\.][0-9]+)?" placeholder="Exemplo: 1500,50" id="renda">
                 <p>
                     <!-- espaço para pular uma linha-->
                 </p>
@@ -71,7 +72,7 @@
         <!--Botão de próxima etapa-->
         <ul>
             <li>
-                <a href="perfil3.html">
+                <a href="perfil3.html" id="proximoPasso2">
                     <img src='img/mais.png' alt="mais" class="seta">
                     
                 <p>
@@ -101,5 +102,6 @@
             </p>
         </a>
     </footer>
+    <script src="js/perfil.js"></script>
 </body>
 </html>

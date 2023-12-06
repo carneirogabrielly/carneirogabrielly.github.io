@@ -15,6 +15,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cabin&family=Merriweather&display=swap" rel="stylesheet">
     <title>Horizontes - Personalize o Perfil</title>
+    <script src="js/perfil.js"></script>
 </head>
 <body>
     <header>
@@ -41,13 +42,13 @@
                 <h1 class="nome">
                     Insira seu nome
                 </h1>
-                <input type="text" >
+                <input type="text" id="nome">
             </li>
             <li>
                 <h1>
                     Selecione seu gênero
                 </h1>
-                <select id="mySelect">
+                <select id="genero">
                     <option value="Feminino">Feminino</option>
                     <option value="Masculino">Masculino</option>
                     <option value="Outro">Outro</option>
@@ -57,18 +58,18 @@
                 <h1>
                     Data de Nascimento
                 </h1>
-                <input type="date">
+                <input type="date" id="dataNascimento">
             </li>
             <li>
                 <h1>
                     Insira sua localização
                 </h1>
-                <input type="text">
+                <input type="text" id="localizacao">
             </li>
     
             <!--Botão de próxima etapa-->
             <li>
-                <a href="perfil2.html">
+                <a href="perfil2.html" id="proximoPasso">
                     <img src='img/mais.png' alt="Mais" class="seta">
                     
                 <p>
