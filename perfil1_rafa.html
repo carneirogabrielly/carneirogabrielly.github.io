@@ -14,6 +14,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cabin&family=Merriweather&display=swap" rel="stylesheet">
+    <script src="js/teste_rafa.js"></script>
     <title>Horizontes - Personalize o Perfil</title>
 </head>
 <body>
@@ -38,16 +39,16 @@
     <main>
         <ul>
             <li>
-                <h1 class="nome">
+                <h1>
                     Insira seu nome
                 </h1>
-                <input type="text" >
+                <input type="text" id="NomeUsuario" name="NomeUsuario">
             </li>
             <li>
                 <h1>
                     Selecione seu gênero
                 </h1>
-                <select id="mySelect">
+                <select id="mySelect" name="genero">
                     <option value="Feminino">Feminino</option>
                     <option value="Masculino">Masculino</option>
                     <option value="Outro">Outro</option>
@@ -57,13 +58,13 @@
                 <h1>
                     Data de Nascimento
                 </h1>
-                <input type="date">
+                <input type="date" id="Nascimento" nome="data_nascimento">
             </li>
             <li>
                 <h1>
                     Insira sua localização
                 </h1>
-                <input type="text">
+                <input type="text" id="Localização" name="localização">
             </li>
     
             <!--Botão de próxima etapa-->
@@ -78,6 +79,7 @@
             </li>
         </ul>
     </main>
+    
     <footer>
         <a href="inicio.html" class="esquerda">
             <img src="img/nuvem.png" alt="Nuvem">
@@ -98,5 +100,6 @@
             </p>
         </a>
     </footer>
+
 </body>
 </html>
