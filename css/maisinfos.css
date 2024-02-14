@@ -29,7 +29,9 @@ main{
     position: relative;
     left: 10%;
 }
-
+header p{
+    margin: 0;
+}
 p{
     font-size: 120%;
     margin-top: 1rem;
