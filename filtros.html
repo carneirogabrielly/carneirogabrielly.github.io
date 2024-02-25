@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/GERAL.css">
+    <link rel="stylesheet" href="css/GERALFIXED.css">
     <link rel="stylesheet" href="css/FILTROS.css">
     <!-- Fonte Cabin -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -36,16 +36,16 @@
                 </h2>
                 <ul class="opcoes">
                     <li>
-                        <input type="checkbox">
-                        Presencial
+                        <input type="checkbox" id="presencial">
+                        <label for="presencial">Presencial</label>
                     </li>
                     <li>
-                        <input type="checkbox">
-                        Online
+                        <input type="checkbox" id="online">
+                        <label for="online">Online</label>
                     </li>
                     <li>
-                        <input type="checkbox">
-                        Híbrido
+                        <input type="checkbox" id="hibrido">
+                        <label for="hibrido">Híbrido</label>
                     </li>
                 </ul>
                 <h2>
@@ -54,7 +54,7 @@
                 <ul class="arrasto">
                     <li>
                         <input type="range" min="2" max="200" value="10" id="distancia">
-                        <p>Raio de distância: <span id="raioDistancia">10 Km</span></p>
+                        <label for="distancia">Raio de distância: <span id="raioDistancia">10Km</span></label>
                     </li>
                 </ul>
             </li>
@@ -64,28 +64,28 @@
                 </h2>
                 <ul class="opcoes">
                     <li>
-                        <input type="checkbox">
-                        Engenharia
+                        <input type="checkbox" id="engenharia">
+                        <label for="engenharia">Engenharia</label>
                     </li>
                     <li>
-                        <input type="checkbox">
-                        Letras
+                        <input type="checkbox" id="letras">
+                        <label for="letras">Letras</label>
                     </li>
                     <li>
-                        <input type="checkbox">
-                        Psicologia
+                        <input type="checkbox" id="psicologia">
+                        <label for="psicologia">Psicologia</label>
                     </li>
                     <li>
-                        <input type="checkbox">
-                        Direito
+                        <input type="checkbox" id="direito">
+                        <label for="direito">Direito</label>
                     </li>
                     <li>
-                        <input type="checkbox">
-                        História
+                        <input type="checkbox" id="historia">
+                        <label for="historia">História</label>
                     </li>
                     <li>
-                        <input type="checkbox">
-                        Medicina
+                        <input type="checkbox" id="medicina">
+                        <label for="medicina">Medicina</label>
                     </li>
                 </ul>
                 <a href="#" class="mais">
@@ -100,13 +100,12 @@
                 </h2>
                 <ul class="arrasto">
                     <li>
-                        <input type="checkbox">
-                        Gratuito
+                        <input type="checkbox" id="gratuito">
+                        <label for="gratuito">Gratuito</label>
                     </li>
                     <li>
-                        <input type="checkbox">
                         <input type="range" min="0" max="15000" value="0" id="faixaPreco">
-                        Preço até: <span id="preco"> R$ 0,00</span>
+                        <label for="faixaPreco">Preço até: <span id="preco"> R$ 0,00</span></label>
                     </li>
                 </ul>
             </li>
@@ -116,8 +115,8 @@
                 </h2>
                 <ul class="opcoes">
                     <li>
-                        <input type="checkbox">
-                        Permitir pequenas diferenças
+                        <input type="checkbox" id="recomendacoes">
+                        <label for="recomendacoes">Permitir pequenas diferenças</label>
                     </li>
                 </ul>
             </li>
