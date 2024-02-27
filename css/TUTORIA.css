@@ -1,0 +1,37 @@
+.pesquisa{
+    position: absolute;
+    width: 80%;
+    height: 2rem;
+    font-size: 1.2rem;
+    padding: 1rem;
+    border-radius: 40px;
+    border: 2px solid #E6E6E6;
+    left: 10%;
+    top: 8rem;
+}
+
+h1{
+    font-size: 200%;
+}
+
+.lupa{
+    position:absolute;
+    width: 1.5rem;
+    right: 12%;
+    top: 8.2rem;
+}
+
+.topico{
+    display: inline-block;
+    flex-wrap: wrap;
+    position: relative;
+    background-color: white;
+    width: 30%;
+    text-align: center;
+    border: 2px solid #E6E6E6;
+    padding: 3rem 2rem;
+    font-size: 100%;
+    margin: 6% 2%;
+    left:7%;
+    top: 3rem;
+}
