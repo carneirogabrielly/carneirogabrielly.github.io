@@ -16,8 +16,8 @@ h2{
 }
 
 h3{
-    margin-top: 2rem;
-    margin-bottom: -1.8rem;
+    /* margin-top: 2rem; */
+    /* margin-bottom: -1.8rem; */
     font-size: 120%;
     color: black;
     text-decoration: underline;
@@ -50,7 +50,9 @@ li::before {content: "-"; color: black;
 
 li{
     margin-left: 1rem;
-    margin-bottom: -1rem;
+    margin-bottom: -1.3rem;
+    position: relative;
+    top: -1.5rem;
 }
 
 ul{
@@ -98,4 +100,11 @@ ol{
     border: 2.5px solid #002147;
     bottom: -25rem;
     right: 5%;
+}
+
+.campus{
+    width: 20rem;
+    position: relative;
+    top: 1.5rem;
+    left: 2rem;
 }
