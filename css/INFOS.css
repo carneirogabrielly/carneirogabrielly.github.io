@@ -1,5 +1,5 @@
 html, body{
-    background-color: #E6E6E6;
+    background-color: white;
     font-family: 'Cabin', sans-serif;
     /* font-family: 'Merriweather', serif; */
 }
@@ -75,6 +75,27 @@ ol{
     padding-left: 5px;
 }
 
+.maria{
+    position: absolute;
+    left: 15%;
+    top: 2rem;
+    border: 6px solid black;
+    width: 15rem;
+}
 
+.infos{
+    position: relative;
+    top: 18rem;
+}
 
-
+.pesquisa{
+    position: absolute;
+    width: 100%;
+    height: 10%;
+    font-size: 1.2rem;
+    padding: 1rem;
+    border-radius: 40px;
+    border: 2.5px solid #002147;
+    bottom: -25rem;
+    right: 5%;
+}

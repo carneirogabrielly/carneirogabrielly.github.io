@@ -10,8 +10,25 @@
     top: 8rem;
 }
 
-h1{
-    font-size: 200%;
+#titulo{
+    font-size: 1.6rem;
+    position: absolute;
+    width: 8rem;
+    top: 1.6rem;
+}
+h2{
+    font-size: 1.3rem;
+}
+
+.tags{
+    position: relative;
+    display: inline-block;
+    width: 5rem;
+    flex-wrap: wrap;
+    text-align: center;
+    flex-direction: row;
+    position: relative;
+    top: 1.4rem;
 }
 
 .lupa{
@@ -34,4 +51,41 @@ h1{
     margin: 6% 2%;
     left:7%;
     top: 3rem;
+}
+
+#pessoa{
+    position: relative;
+    top: 4rem;
+    left: 5%;
+    margin-top: 1rem;
+}
+
+#avaliacao{
+    color: #002147;
+    font-size: 1.1rem;
+    position: relative;
+    top: 0.5rem;
+}
+
+#pessoa h3{
+    font-size: 1.5rem;
+    position: relative;
+    top: 3px;
+}
+
+.estrela{
+    position: relative;
+    left: 1.7rem;
+    bottom: 0.7rem;
+    width: 0.7rem;
+    height: 0.71rem;
+}
+
+#valor{
+    position:absolute;
+    left: 22rem;
+    font-size: 1.5rem;
+    color: #4e4e4eaa;
+    bottom: 4rem;
+    font-weight: lighter;
 }
