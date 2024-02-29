@@ -51,9 +51,17 @@ a{
 }
 
 .select{
-    margin-left: 10px;
+    margin-left: 5px;
     border: 1px solid #E6E6E6;
+    margin-bottom: 0.5rem;
 }
+
+#maisfiltros{
+    margin-left: 1rem;
+    margin-bottom: 0.4rem;
+}
+
+
 
 footer{
     position: absolute;

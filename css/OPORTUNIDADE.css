@@ -102,14 +102,23 @@ h2{
     display: inline-block;
     flex-wrap: wrap;
     position: relative;
+    justify-content: space-between;
     background-color: white;
-    width: 30%;
+    width: 45%;
+    height: 50%;
     left: 2%;
     text-align: center;
     border: 2px solid #E6E6E6;
-    padding: 10% 6%;
+    padding: 10% 0%;
     font-size: 100%;
-    margin: 6% 3%;
+    margin: 6% 3% 0 0;
+    align-items: center;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.topico a {
+    padding: 0 1rem;
 }
 
 .pesquisa{

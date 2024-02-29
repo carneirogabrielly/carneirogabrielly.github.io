@@ -160,3 +160,16 @@ ol{
     font-size: 8px;
     color: darkgrey;
 }
+
+.forumGeral{
+    position: absolute;
+    width: 90%;
+    padding: 0rem 0rem 1.5rem 1rem;
+    background-color: pink;
+    margin-bottom: 3rem;
+    left: -1rem;
+}
+
+#maria{
+    height: max-content;
+}
