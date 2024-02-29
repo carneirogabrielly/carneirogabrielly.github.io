@@ -27,6 +27,7 @@ h3{
 
 main{
     position: relative;
+    height: 105%;
     left: 10%;
 }
 
@@ -103,8 +104,59 @@ ol{
 }
 
 .campus{
-    width: 20rem;
     position: relative;
     top: 1.5rem;
     left: 2rem;
+}
+
+.tweet {
+    position: relative;
+    left: -5%;
+    top: 1.5rem;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #f9f9f9;
+}
+.username {
+    font-weight: bold;
+}
+
+#novaPergunta{
+    position: relative;
+    left: -6%;
+    width: 70%;
+    height: 3rem;
+    font-size: 1.1rem;
+    padding: 1rem 1rem 1rem 2rem;
+    border-radius: 10px;
+    border: 2px solid #E6E6E6;
+}
+
+.question{
+    margin-bottom: 10px;
+}
+
+.info{
+    display: flex;
+    font-size: 8px;
+}
+
+.info img{
+    position: relative;
+    margin-left: 3px;
+    width: 3%;
+    height: 3%;
+}
+
+.info p{
+    font-size: 120%;
+    margin: 0.1rem 0.9rem 0rem 0.2rem;
+}
+
+.info .direita{
+    right: -1%;
+    top: 8%;
+    font-size: 8px;
+    color: darkgrey;
 }

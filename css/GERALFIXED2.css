@@ -10,8 +10,6 @@ html, body{
     background-color: white;
 }
 
-
-
 header{
     width: 100%;
     height: 10%;
@@ -20,6 +18,7 @@ header{
     text-align: center;
     background-color: white;
 }
+
 
 header img{
     width: 25px;
@@ -57,7 +56,7 @@ a{
 }
 
 footer{
-    position: sticky;
+    position: absolute;
     bottom: 0rem;
     width: 100%;
     height: 10%;
@@ -139,14 +138,13 @@ footer .mid{
     overflow-x: hidden; /* Disable horizontal scroll */
     padding-top: 60px; /* Place content 60px from the top */
     transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
-    border-right: 3px solid white;
   }
   
   /* The navigation menu links */
   .sidenav a {
-    padding: 8px 8px 30px 32px;
+    padding: 8px 8px 8px 32px;
     text-decoration: none;
-    font-size: 23px;
+    font-size: 25px;
     color: white;
     display: block;
     transition: 0.3s;
@@ -177,6 +175,7 @@ footer .mid{
     .sidenav {padding-top: 15px;}
     .sidenav a {font-size: 18px;}
   }
+
 
 .meio{
     position: absolute;

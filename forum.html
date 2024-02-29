@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/GERALFIXED.css">
+    <link rel="stylesheet" href="css/INFOS.css">
+    <!-- Fonte Cabin -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cabin&display=swap" rel="stylesheet">
+    <!-- Fonte Merriweather -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cabin&family=Merriweather&display=swap" rel="stylesheet">
+    <title>Campus Mobile</title>
+</head>
+<body>
+    <header>
+        <a href="estagio_codes.html" class="esquerda">
+            <img src="img/voltar.png" alt="Seta para a esquerda.">
+            <p>
+                Voltar
+            </p>
+        </a>
+        <img class="meio" src="https://febrace.org.br/wp-content/uploads/2023/10/logo-campus-mobile.png" alt="Logo fantasia." width="100">
+    </header>
+    <main>
+        <form id="formulario">
+            <input type="text" id="novaPergunta" placeholder="Faça uma nova pergunta">
+            <button role="button" class="button-2" onclick="adicionarPergunta()">Enviar</button>
+        </form>
+        <div id="tweetsContainer">
+            <div class="tweet">
+                <span class="username">Bruno Faria:</span> 
+                <p class="question">Algúem sabe me explicar como é a semana imersiva?</p>
+                <span class="info">
+                    <img src="img/eye.png" alt="">
+                    <p>247</p>
+                    <img src="img/favorite.png" alt="">
+                    <p>9</p>
+                    <img src="img/comment.png" alt=""> 
+                    <p>5</p>
+                    <p class="direita">25/02/2024</p>
+                </span>
+            </div>
+            <div class="tweet">
+                <span class="username">Luana Santos:</span> 
+                <p class="question">Gente, eu posso participar sozinha da competição?</p>
+                <span class="info">
+                    <img src="img/eye.png" alt="">
+                    <p>89</p>
+                    <img src="img/favorite.png" alt="">
+                    <p>35</p>
+                    <img src="img/comment.png" alt=""> 
+                    <p>11</p>
+                    <p class="direita">10/02/2024</p>
+                </span>
+            </div>
+            <div class="tweet">
+                <span class="username">Davi Lima:</span> 
+                <p class="question">Pode se inscrever depois do prazo limite de inscrição??</p>
+                <span class="info">
+                    <img src="img/eye.png" alt="">
+                    <p>6301</p>
+                    <img src="img/favorite.png" alt="">
+                    <p>453</p>
+                    <img src="img/comment.png" alt=""> 
+                    <p>97</p>
+                    <p class="direita">13/11/2023</p>
+                </span>
+            </div>
+            <!-- Adicione mais tweets aqui -->
+        </div>
+    </main>
+</body>
+</html>

@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/GERALFIXED.css">
+    <link rel="stylesheet" href="css/GERALFIXED2.css">
     <link rel="stylesheet" href="css/OPORTUNIDADE.css">
     <!-- Fonte Cabin -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -19,14 +19,16 @@
 </head>
 
 <body>
-    <header>
-        <a href="inicio.html" class="esquerda">
-            <img src="img/voltar.png" alt="Seta para a esquerda.">
-            <p>
-                Voltar
-            </p>
-        </a>
-        <input type="search" pattern="[0-100]+([,\.][0-100]+)?" placeholder="Buscar" class="pesquisa">
+    <header id="headerbusca">
+        <ul>
+            <a href="inicio.html" class="esquerda">
+                <img src="img/voltar.png" alt="Seta para a esquerda.">
+                <p>
+                    Voltar
+                </p>
+            </a>
+            <input type="search" pattern="[0-100]+([,\.][0-100]+)?" placeholder="Buscar" class="pesquisa">
+        </ul>
     </header>
     <main>
         <ul class="filtrinho">
@@ -86,7 +88,7 @@
                 </a>
             </li>
         </ul>
-        <ul>
+        <ul class="ulmeio">
             <li class="topico">
                 <a href=#>
                 <p>
@@ -137,23 +139,32 @@
         </ul>
     </main>
     <footer>
-        <a href="inicio.html" class="esquerda">
-            <img src="img/nuvem.png" alt="Pequena nuvem.">
-            <p>
-                Início
-            </p>
-        </a>
-        <a href="buscar.html" class="meio">
-            <img src="img/buscar.png" alt="Lupa de busca.">
-            <p>
-                Buscar
-            </p>
-        </a>
-        <a href="favoritos.html" class="direita">
-            <img src="img/fav.png" alt="Ícone de coração.">
-            <p>
-                Favoritos
-            </p>
-        </a>
+        <ul>
+            <li class="canto">
+                <a href="inicio.html">
+                    <img src="img/nuvem.png" alt="Pequena nuvem.">
+                    <p>
+                        Início
+                    </p>
+                </a>
+            </li>
+            <li class="mid">
+                <a href="buscar.html">
+                    <img src="img/buscar.png" alt="Lupa de busca.">
+                    <p>
+                        Buscar
+                    </p>
+                </a>
+            </li>
+            <li class="canto">
+                <a href="favoritos.html">
+                    <img src="img/fav.png" alt="Ícone de coração.">
+                    <p>
+                        Favoritos
+                    </p>
+                </a>
+            </li>
+        </ul>
     </footer>
+    <script src="js/forum.js"></script>
 </body>

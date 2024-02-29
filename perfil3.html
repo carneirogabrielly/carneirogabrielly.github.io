@@ -4,8 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/GERAL.css">
-    <link rel="stylesheet" href="css/FORM.css">   
+    <link rel="stylesheet" href="css/GERALFIXED2.css">
+    <link rel="stylesheet" href="css/OPORTUNIDADE.css">
+    <link rel="stylesheet" href="css/FORM.css">
     <!-- Fonte Cabin -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -13,28 +14,41 @@
     <!-- Fonte Merriweather -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Cabin&family=Merriweather&display=swap" rel="stylesheet"> 
-    <!-- <script src="js/perfil3.js"></script> -->
+    <link href="https://fonts.googleapis.com/css2?family=Cabin&family=Merriweather&display=swap" rel="stylesheet">
     <title>Horizontes - Personalize o Perfil</title>
+    <script src="js/perfil.js"></script>
 </head>
 <body>
     <header>
-        <a href="config.html" class="esquerda">
-            <img src="img/config.png" alt="Engrenagem.">
-            <p>
-                Configurações
-            </p>
-        </a>
-        <a href="index.html" class="meio">
-            <img src="img/horizontes_logo.png" alt="Logomarca do Horizontes com 3 listras e sol, página de navegação principal." class="horizontes">
-            <p> <!--Sem legenda--></p>
-        </a>
-        <a href="filtros.html" class="direita">
-            <img src="img/filtros.png" alt="Controle de resultados.">
-            <p>
-                Filtros
-            </p> 
-        </a>
+        <ul>
+            <li class="canto">
+                <div id="mySidenav" class="sidenav">
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                    <a href="#">Perfil</a>
+                    <a href="tutoria.html">Tutoria</a>
+                    <a href="#">Acessibilidade</a>
+                    <a href="#">Contato</a>
+                    <a href="#">Sobre</a>
+                    </div>
+                    
+                    <!-- Use any element to open the sidenav -->
+                    <span onclick="openNav()">
+                    <img src="img/menu.png" alt="Menu de listagem.">
+                </span>
+                
+            </li>
+            <li class="horizontes">
+                <a href="index.html">
+                    <img src="img/horizontes_logo.png" alt="Logomarca do Horizontes com 3 listras e sol, página de navegação principal." class="horizontes">
+                    <p> <!--Sem legenda--></p>
+                </a>
+            </li>
+            <li class="canto">
+                <a href="filtros.html">
+                    <img src="img/filter.png" alt="Controle de resultados.">
+                </a>
+            </li>
+        </ul>
     </header>
     <main>
         <ul>
@@ -131,25 +145,6 @@
             </li>
         </ul>
     </main>
-    <footer>
-        <a href="inicio.html" class="esquerda">
-            <img src="img/nuvem.png" alt="Pequena nuvem.">
-            <p>
-                Início
-            </p>
-        </a>
-        <a href="buscar.html" class="meio">
-            <img src="img/buscar.png" alt="Lupa de busca.">
-            <p>
-                Buscar
-            </p>
-        </a>
-        <a href="favoritos.html" class="direita">
-            <img src="img/fav.png" alt="Ícone de coração.">
-            <p>
-                Favoritos
-            </p>
-        </a>
-    </footer>
+    <script src="js/forum.js"></script>
 </body>
 </html>
