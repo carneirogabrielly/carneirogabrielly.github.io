@@ -162,14 +162,19 @@ ol{
 }
 
 .forumGeral{
-    position: absolute;
+    position: relative;
     width: 90%;
     padding: 0rem 0rem 1.5rem 1rem;
-    background-color: pink;
+    background-color: #002147;
     margin-bottom: 3rem;
     left: -1rem;
+    top: 2rem;
 }
 
 #maria{
     height: max-content;
+}
+
+.container{
+    color: white;
 }
